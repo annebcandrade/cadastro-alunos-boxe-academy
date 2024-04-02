@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Field, ErrorMessage } from "formik"
 import styled from "styled-components"
 
@@ -37,7 +37,9 @@ const RequiredLabel = styled.span`
 
 
 export const Input = ( { name, type ="", label, required, ...props}) => {
+    
 
+  
 
     return (
 
@@ -46,7 +48,8 @@ export const Input = ( { name, type ="", label, required, ...props}) => {
                 { label || name}
                 { required && <RequiredLabel>*</RequiredLabel>}
             </Label>
-            <Field as={FieldStyled} name={name} type={type} {...props} />
+            <Field as={FieldStyled} name={name} type={type}
+            {...props}  />
             <ErrorMessage name={name} component={ErrorStyled} />
             </Container>
         
