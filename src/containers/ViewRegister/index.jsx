@@ -68,7 +68,7 @@ function ViewRegister() {
             <p>Confira a lista de alunos cadastrados na Boxe Academy em Ordem de
                 inscrição:</p>
 
-            <Button onClick={handleOrdenarAlunos}>{ordenado ? 'Ordem Alfabética' : 'Alunos mais Recentes'}</Button>
+            <Button onClick={handleOrdenarAlunos}>{ordenado ? 'Alunos mais Recenter' : 'Ordem Alfabética'}</Button>
 
 
             <Container>
