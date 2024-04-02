@@ -14,4 +14,7 @@ Para os formulários de cadastros e edição utilizei Formik e Yup para as valid
 ## Deploy:
 Para o deploy utilizei a Vercel.
 
+## Considerações Finais:
+Qualquer dúvida sobre o projeto podem entrar em contato. Fiquei muito feliz de realizar o desafio!:)
+
 
