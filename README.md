@@ -1,6 +1,6 @@
 # Boxe Academy - Controle de Alunos
 
-## Deploy: https://cadastro-alunos-boxe-academy-anneb.vercel.app/ViewRegister
+## Deploy: https://cadastro-alunos-boxe-academy-anneb.vercel.app/
 
 ## Tecnologias utilizadas: 
 React JS, styled-component, axios, formik, YUP, Hooks: UseState e useEffect, rotas (react-router-dom).
