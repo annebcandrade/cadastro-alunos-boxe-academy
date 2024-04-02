@@ -1,8 +1,7 @@
-# React + Vite
+# Boxe Academy - Controle de Alunos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deploy: https://boxe-academy.vercel.app
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas: 
+React JS, styled-component, axios, formik, YUP, Hooks: UseState e useEffect, rotas (react-router-dom).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
