@@ -47,7 +47,9 @@ function Register() {
         Bairro: Yup.string().required("Campo obrigatório"),
         CEP: Yup.string() .required("Campo obrigatório"),
         Cidade: Yup.string().required("Campo obrigatório"),
-        UF: Yup.string().required("Campo obrigatório"),
+        UF: Yup.string()
+            .max(2, "O Campo deve ter no máximo 2 caracteres")
+            .required("Campo obrigatório"),
     });
 
     const calcularIdade = (dataNascimento) => {
