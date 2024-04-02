@@ -83,10 +83,10 @@ function Register() {
         try {
             const idade = calcularIdade(values.dataNascimento);
             if (idade >= 18) {
-                // Maior de idade, responsável é null
+              
                 values.responsavel = null;
             } else {
-                // Menor de idade, verifica se os dados do responsável foram preenchidos
+               
                 const responsavel = {
                     nome: values['Nome do Responsavel'] || '',
                     sobrenome: values['Sobrenome do Responsavel'] || '',
@@ -103,7 +103,6 @@ function Register() {
 
             values.dataNascimento = new Date(values.dataNascimento).toLocaleDateString('pt-BR');
     
-            // Envie os dados para a API usando o serviço API
             const response = await api.post('/', JSON.stringify(values), {
                 headers: {
                     'Content-Type': 'application/json'
@@ -112,18 +111,15 @@ function Register() {
 
             console.log(response)
     
-            // Limpe o formulário após o envio bem-sucedido
             setSubmitting(false);
     
-            // Exiba um alerta de sucesso
             alert('Aluno cadastrado na Boxe Academy!');
         } catch (error) {
-            // Se houver algum erro, exiba um alerta com a mensagem de erro
+        
             alert('Erro ao cadastrar aluno: ' + error.response.data);
             setSubmitting(false);
         }
     };
-    
 
       
 
