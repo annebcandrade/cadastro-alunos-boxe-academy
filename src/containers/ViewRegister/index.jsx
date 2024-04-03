@@ -96,15 +96,15 @@ function ViewRegister() {
           <p>Sobrenome: {aluno.sobrenome}</p>
           <p>Data de Nascimento: {aluno.dataNascimento}</p>
           <p>CPF: {aluno.cpf}</p>
-          <p>Cidade: {aluno.cidade}</p>
-          <p>Logradouro: {aluno.logradouro}</p>
-          <p>Bairro: {aluno.bairro}</p>
-          <p>UF: {aluno.uf}</p>
-          <p>Email: {aluno.email}</p>
-          <p>Peso: {aluno.peso}</p>
-          <p>Altura: {aluno.altura}</p>
-          <p>Complemento: {aluno.complemento}</p>
-          <p>Número: {aluno.numero}</p>
+          <p>Cidade: {aluno.Cidade}</p>
+          <p>Logradouro: {aluno.Logradouro}</p>
+          <p>Bairro: {aluno.Bairro}</p>
+          <p>UF: {aluno.Uf}</p>
+          <p>Email: {aluno.Email}</p>
+          <p>Peso: {aluno.Peso}</p>
+          <p>Altura: {aluno.Altura}</p>
+          <p>Complemento: {aluno.Complemento}</p>
+          <p>Número: {aluno.Numero}</p>
         </ContainerThree>
       )}
 
