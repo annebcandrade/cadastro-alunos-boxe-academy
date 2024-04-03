@@ -99,12 +99,12 @@ function ViewRegister() {
           <p>Cidade: {aluno.Cidade}</p>
           <p>Logradouro: {aluno.Logradouro}</p>
           <p>Bairro: {aluno.Bairro}</p>
-          <p>UF: {aluno.Uf}</p>
+          <p>UF: {aluno.UF}</p>
           <p>Email: {aluno.Email}</p>
           <p>Peso: {aluno.Peso}</p>
           <p>Altura: {aluno.Altura}</p>
           <p>Complemento: {aluno.Complemento}</p>
-          <p>Número: {aluno.Numero}</p>
+          <p>Número: {aluno.Número}</p>
         </ContainerThree>
       )}
 
